@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid{
+    padding: 60px 0 0 0;
+}
+
+.content-holder{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper{
+    width: 1440px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.col-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-3 img{
+    width: 160px;
+    height: auto;
+}
+
+.col-4{
+    display: flex;
+}
+
+.col-5{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seperate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seperate-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.content1 img{
+    width: 30px;
+    height: 30px;
+}
+
+.contact1 p{
+    margin: 0 ;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content2 img{
+    width: 30px;
+    height: 30px;
+}
+
+.contact2 p{
+    margin: 0 ;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact2 a{
+    margin: 0 ;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact2 a:hover{
+    color:#1D2551;
+    transition: 0.5s;
+}
+
+.profile-name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 79px;
+}
+
+.profile-wrapper{
+    width: 1440px;
+    display: flex;
+}
+
+.name{
+    padding-left: 40px;
+}
+
+.name h1{
+    font-weight: bold;
+}
+
+.name p{
+    font-weight: medium;
+}
+
+.line{
+    width: 10px;
+    height: 90px;
+    left: 154px;
+    top: 79px;
+
+    background: #1D2551;
+    border-radius: 5px;
+}
+
+.profile-detail{
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-wrapper{
+    max-width: 1440px;
+    height: auto;
+}
+
+.photo img{
+    width: 255px;
+    height: 180px;
+}
+
+.biodata{
+    max-width: 300px;
+    height: auto;
+    padding-top: 60px;
+}
+
+.biodata-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.text-biodata{
+    margin: 0px;
+    padding-left: 30px;
+}
+
+.biodata-wrapper img{
+    width: 30px;
+    height: 30px;
+}
+
+.profile-cv{
+    
+    height: auto;
+    display: flex;
+}
+
+.cv-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 76px;
+}
+
+.cv-text{
+    margin-bottom: 10px;
+}
+
+.education{
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #8C1432;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 1440px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 0px;
+    padding: 30px;
+}
+
+.contact-wrapper h1{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.logo-footer img{
+    width: 160px;
+    height: auto;
+
+}
+
+.footer-contact{
+    max-width: 300px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.footer-contact p{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.biodata-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.text-biodata{
+    margin: 0px;
+    padding-left: 30px;
+}
+
+.biodata-wrapper img{
+    width: 30px;
+    height: 30px;
+}
+
+.follow-tag h1{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-deep{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px !important;
+}
+
+.deep-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+
+.company p{
+    font-weight: bold;
+    margin: 0 5px 0 5px !important;
+}
+
+.deep-wrapper p{
+    margin: 0;
+    color: #8C1432;
+}
