@@ -28,6 +28,7 @@ body{
     margin: var(--header-height) 0 0 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    font-weight: 300;
 }
 @media screen and (max-width: 576px) {
     nav{
@@ -102,7 +103,8 @@ a,i{
         background-color: #8C1432;
     }
     .nav__menu{
-        margin: auto;
+        /* margin: auto; */
+        margin-left: 10vw;
     }
     .nav__item{
         display: inline-block;
