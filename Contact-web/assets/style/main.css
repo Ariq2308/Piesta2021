@@ -109,11 +109,88 @@
 /*=== Container Fluid ===*/
 .cont-fluid-wrapper{
     width: 100%;
+    border: solid red 1px;
 }
 .container-fluid{
     margin: auto;
     width: 85%;
-    border: solid salmon 1px;
+    border: solid greenyellow 1px;
 }
 
 /*=== Contact Bar Header ===*/
+.contact-header-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-header-wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.info-head-logo {
+    padding: 0 250px 0 250px;
+}
+.contact-header-wrapper .cont-header-info #mail-p, #telp-p{
+    color: black;
+}
+.contact-header-wrapper .cont-header-info #phone__icon, #mail__icon{
+    
+    margin: auto;
+    padding: 6px;
+}
+.contact-header-wrapper .info-head-logo{
+    height: 70px;
+}
+.cont-header-info{
+    display: flex;
+}
+@media screen and (max-width: 1296px) {
+    .info-head-logo {
+        padding: 0 150px 0 150px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .info-head-logo {
+        padding: 0 100px 0 100px;
+    }
+}
+@media screen and (max-width: 935px) {
+    .info-head-logo {
+        padding: 0 70px 0 70px;
+    }
+    /* .contact-header-container{
+        width: 120%;
+    } */
+}
+@media screen and (max-width: 857px) {
+    .info-head-logo {
+        padding: 0 50px 0 50px;
+    }
+    .contact-header-wrapper .info-head-logo{
+        height: 55px;
+    }
+}
+.separator_liner_header{
+    height: 1px;
+    background-color: rgb(196, 196, 196);
+}
+@media screen and (max-width: 765px){
+    .contact-header-wrapper{
+        display: none;
+    }
+    .contact-before-empty{
+        width: 100%;
+        background-color: white;
+        display: flex;
+    }
+    .empty-container-header{
+        height: 100px;
+    }
+    .separator_liner_header{
+        display: none;
+    }
+}
