@@ -358,8 +358,7 @@
 @media screen and (max-width: 900px){
     .map-text{
         width: 300px;
-        background-color: #8C1432;
-        padding: 50px;
+        padding: 20px;
     }
     .text-wrapper h1, .map-text-wrapper2 h1{
         font-size: 20px;
