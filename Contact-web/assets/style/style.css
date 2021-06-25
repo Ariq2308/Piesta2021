@@ -157,7 +157,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    align-items: center;
+    align-content: flex-start;
     justify-content: center;
 }
 
@@ -165,30 +165,27 @@
     width: 1440px;
     height: auto;
 }
-
+#head_office{
+    display: inline-block;
+}
 .navsec{
     display: flex;
     align-items: center;
 
     width: 800px;
     height: auto;
-    left: 154px;
-    top: 129px;
     background-color: #C4C4C4;
-
     margin-top: 35px;
 }
-
-
 .navsec a{
     color: #ffffff;
-    margin: 0;
+    margin: 1px;
     padding: 14 20 14 20;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    background-color: #C4C4C4;
 }
-
 .navsec .hover:hover{
     transition: 0.5s;
     background-color: #8b8b8b;
@@ -196,6 +193,26 @@
 
 .navsec a.active{
     background-color: #8C1432;
+}
+
+@media screen and (max-width: 860px) {
+    .navsec{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .navsec{
+     flex-wrap: wrap;
+     width: 500px;
+     height: 120px;
+     margin-top: 20px;
+    }
+}
+@media screen and (max-width: 535px){
+    .navsec{
+        width: 80%;
+        height: auto;
+       }
 }
 
 .map-container{
@@ -361,11 +378,77 @@
         padding: 20px;
     }
     .text-wrapper h1, .map-text-wrapper2 h1{
-        font-size: 20px;
+        /* font-size: 20px; */
         font-weight: bolder;
     }
     .text-wrapper p, .map-text-wrapper2 p{
         font-size: 15px;
         /* font-weight: 800; */
+    }
+    .text-biodata{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .map{
+        min-width: 300px;;
+    }
+    .map-text{
+        max-width: 300px;
+        padding: 20px;
+    }
+    .text-biodata{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 675px) {
+    .map-wrapper{
+        flex-direction: column;
+    }
+    .email-form{
+        flex-direction: column;
+    }
+    .map{
+        width: 100%;
+        max-width: none;
+    }
+    .map-text{
+        width: 100%;
+        max-width: none;
+        /* padding: 50px; */
+    }
+    .map-text-wrapper2{
+        width: 100%;
+    }
+    .form-wrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* padding-top: 50px; */
+        margin: auto auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 618px) {
+    .map{
+        width: 100%;
+        max-width: none;
+    }
+    .map-text{
+        width: 100%;
+        max-width: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .map-text{
+        width: fit-content;
+    }
+    .text-wrapper p{
+        font-size: 12px;
+    }
+    .field2{
+        width: 100%;
     }
 }

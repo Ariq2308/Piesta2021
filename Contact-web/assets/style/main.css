@@ -114,7 +114,16 @@
     margin: auto;
     width: 85%;
 }
-
+@media screen and (max-width: 675px) {
+    .container-fluid{
+        width: 97%;
+    }
+}
+@media screen and (max-width: 400px){
+    .container-fluid{
+        width: 100%;
+    }
+}
 /*=== Contact Bar Header ===*/
 .contact-header-container{
     width: 100%;
@@ -132,9 +141,7 @@
 .info-head-logo {
     padding: 0 250px 0 250px;
 }
-.contact-header-wrapper .cont-header-info #mail-p, #telp-p{
-    color: black;
-}
+
 .contact-header-wrapper .cont-header-info #phone__icon, #mail__icon{
     
     margin: auto;
@@ -145,6 +152,12 @@
 }
 .cont-header-info{
     display: flex;
+}
+
+@media screen and (min-width: 769px) {
+    .contact-header-wrapper .cont-header-info #mail-p, #telp-p{
+        color: black;
+    }
 }
 @media screen and (max-width: 1296px) {
     .info-head-logo {
