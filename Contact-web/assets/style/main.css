@@ -205,3 +205,30 @@
         display: none;
     }
 }
+
+/*=== Email Form ===*/
+.field1, .field2{
+    border: 3px solid #C4C4C4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 4px;
+}
+.field-btn{
+    width: 49%;
+    background-color: #8b8b8b;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    height: 30px;
+    padding: 4px;
+}
+.field-btn:hover{
+    background-color: #C4C4C4;
+    color: #008cff;
+}
+.btn-holder{
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+}
