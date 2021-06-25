@@ -175,6 +175,8 @@ a,i{
     color: var(--white-col);
     text-decoration: none;
     transition: 0.4s;
+    font-weight: 400;
+    font-size: 17px;
 }
 .nav__link:hover{
     color:var(--lblue-col);
