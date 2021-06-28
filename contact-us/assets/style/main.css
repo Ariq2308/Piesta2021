@@ -222,10 +222,12 @@
     border-radius: 6px;
     height: 30px;
     padding: 4px;
+    transition: 0.4s;
 }
 .field-btn:hover{
     background-color: #C4C4C4;
     color: #008cff;
+    transition: 0.7s;
 }
 .btn-holder{
     margin: auto;

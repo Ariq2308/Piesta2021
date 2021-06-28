@@ -231,14 +231,14 @@
 
 .map iframe{
     width: 100%;
-    height: 400px;
+    height: 100%;
 }
 .map{
     width: 80%;
 }
 
 .map-text{
-    max-width: 400px;
+    max-width: fit-content;
     background-color: #8C1432;
     padding: 50px;
 }
@@ -412,6 +412,7 @@
     .map{
         width: 100%;
         max-width: none;
+        height: 400px;
     }
     .map-text{
         width: 100%;
