@@ -177,6 +177,7 @@ a,i{
     transition: 0.4s;
     font-weight: 400;
     font-size: 17px;
+    text-decoration: none!important;
 }
 .nav__link:hover{
     color:var(--lblue-col);
@@ -204,6 +205,7 @@ a,i{
     z-index: 100;
     transition: .4s;
     visibility: hidden;
+    text-decoration: none!important;
 }
 .scrolltop:hover{
     background-color: rgb(26, 26, 26);

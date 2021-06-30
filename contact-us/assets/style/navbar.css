@@ -175,6 +175,7 @@ a,i{
   font-weight: 500;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
+  text-decoration: none!important;
 }
 .nav__link:hover{
   color:var(--lblue-col);
@@ -202,6 +203,7 @@ a,i{
   z-index: 100;
   transition: .4s;
   visibility: hidden;
+  text-decoration: none!important;
 }
 .scrolltop:hover{
   background-color: rgb(26, 26, 26);
