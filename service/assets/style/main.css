@@ -1,0 +1,236 @@
+
+/*== Company Description ==*/
+.comp__desc__footer{
+    width: 100%;
+    height: 300px;
+    background-color: var(--red-col);
+    display: flex;
+    color: var(--white-col);
+}
+.comp__content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+#logo_3{
+    width: 140px;
+    height: auto;
+}
+.comp_desc_c1,.comp_desc_c2,.comp_desc_c3{
+    height: fit-content;
+}
+.comp_desc_c2{
+    display: flex;
+    flex-direction: column;
+}
+.comp_desc_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.desc_icon_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.desc_text_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.comp_desc_c2_title,.comp_desc_c3_title{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.desc_text{
+    font-weight: lighter;
+    font-size: 13px;
+}
+.comp_desc_c2_title{
+    padding: 20px 0;
+}
+.desc_icon{
+    padding: 10px;
+    font-size: 20px;
+}
+.desc_text{
+    padding: 10px;
+}
+#filling-space{
+    height: 17px;
+}
+
+@media screen and (max-width:605px){
+    #logo_3{
+        width: 110px;
+        height: auto;
+    }
+}
+@media screen and (max-width:600px){
+    .comp__content{
+        flex-direction: column;
+    }
+    .comp__desc__footer{
+        height: 500px;
+    }
+}
+
+
+
+/*== Footer ==*/
+.footer__deep{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: var(--white-col);
+    justify-content: center;
+    align-items: center;
+}
+.footer__wrapper{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color:var(--red-col);
+}
+.f{
+    display: inline-block;
+}
+#bold_name{
+    display: inline-block;
+    font-weight: bold;
+}
+.company__footer{
+    display: inline-block;
+}
+
+
+
+/*=== Container Fluid ===*/
+.cont-fluid-wrapper{
+    width: 100%;
+}
+.container-fluid{
+    margin: auto;
+    width: 85%;
+}
+@media screen and (max-width: 675px) {
+    .container-fluid{
+        width: 97%;
+    }
+}
+@media screen and (max-width: 400px){
+    .container-fluid{
+        width: 100%;
+    }
+}
+/*=== Contact Bar Header ===*/
+.contact-header-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-header-wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.info-head-logo {
+    padding: 0 250px 0 250px;
+}
+
+.contact-header-wrapper .cont-header-info #phone__icon, #mail__icon{
+    
+    margin: auto;
+    padding: 6px;
+}
+.contact-header-wrapper .info-head-logo{
+    height: 70px;
+}
+.cont-header-info{
+    display: flex;
+}
+
+@media screen and (min-width: 769px) {
+    .contact-header-wrapper .cont-header-info #mail-p, #telp-p{
+        /* color: black; */
+    }
+}
+@media screen and (max-width: 1296px) {
+    .info-head-logo {
+        padding: 0 150px 0 150px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .info-head-logo {
+        padding: 0 100px 0 100px;
+    }
+}
+@media screen and (max-width: 935px) {
+    .info-head-logo {
+        padding: 0 70px 0 70px;
+    }
+    /* .contact-header-container{
+        width: 120%;
+    } */
+}
+@media screen and (max-width: 857px) {
+    .info-head-logo {
+        padding: 0 50px 0 50px;
+    }
+    .contact-header-wrapper .info-head-logo{
+        height: 55px;
+    }
+}
+.separator_liner_header{
+    height: 1px;
+    background-color: rgb(196, 196, 196);
+}
+@media screen and (max-width: 765px){
+    .contact-header-wrapper{
+        display: none;
+    }
+    .contact-before-empty{
+        width: 100%;
+        background-color: white;
+        display: flex;
+    }
+    .empty-container-header{
+        height: 100px;
+    }
+    .separator_liner_header{
+        display: none;
+    }
+}
+
+/*=== Email Form ===*/
+.field1, .field2{
+    border: 3px solid #C4C4C4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 4px;
+}
+.field-btn{
+    width: 49%;
+    background-color: #8b8b8b;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    height: 30px;
+    padding: 4px;
+    transition: 0.4s;
+}
+.field-btn:hover{
+    background-color: #C4C4C4;
+    color: #008cff;
+    transition: 0.7s;
+}
+.btn-holder{
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+}
