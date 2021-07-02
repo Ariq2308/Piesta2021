@@ -121,9 +121,6 @@
     .home__subtitle{
         font-size: 30px;
     }
-    .r1__content{
-        /* margin: 50% 0 50%; */
-    }
 }
 @media screen and (max-width:768px) {
     .home__title{
@@ -191,7 +188,7 @@
     margin: 15px auto 0;
     box-sizing: border-box;
     border-radius: 5px;
-    text-decoration: none;
+    text-decoration: none!important;
     color: white;
     padding-top: 10px;
     transition-duration: 0.4s;
