@@ -6,15 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="assets/style/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Wallpoet&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" media="screen" href="navbar.css"/>
-
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/style/navbar.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/style/main.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- icons -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+        <!-- end icons -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -25,202 +35,255 @@
         <link rel="icon" type="image/png" href="./bosjdmlogo.png" sizes="30x50" />
     </head>
     <body>
-        <nav class="navbar-up">
-            <div class="topnav" id="myTopnav">
-              <div class="nav-home">
-                  <a></a>
-                  <a href="#">HOME</a>
-                  <a href="#">PROFILE</a>
-                  <a href="#">SERVICES</a>
-                  <a href="#">CLIENTS</a>
-                  <a href="#">CONTACT US</a>
-                  <a href="">GUEST BOOK</a>
-                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                      <i class="fa fa-bars"></i>
-                  </a>
-              </div>
-            </div>
-        </nav>
-        <div class="container-fluid">
-            <div class="content-holder">
-                <div class="content-wrapper">
-                    <div class="col-4">
-                        <div class="content1">
-                            <img src="./Frame 6.png">
-                            <div class="contact1">
-                                <p>+6221 8782 504</p>
-                                <p>Request a callback</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <img src="./piesta_consulting_pt 3(1).png">
-                    </div>
-                    <div class="col-5">
-                        <div class="content2">
-                            <img src="./Frame 6.png">
-                            <div class="contact2">
-                                <p>Write Us</p>
-                                <a href="#">piestaconsulting@gmail.com</a>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="seperate">
-                <div class="seperate-line">
-                    
-                </div>
-            </div>
+        <a href="#" class="scrolltop" id="scroll-top"><i class='bx bx-chevron-up scrolltop__icon'></i></a>
 
-            <div class="profile-name">
-                <div class="profile-wrapper">   
-                    <div class="line">
-                        
-                    </div>
-                    <div class="name">
-                        <h1>
-                            Ariq Nasution
-                        </h1>
-                        <p>
-                            Ariq Nasution
-                        </p>
-                    </div>
+        <header class="header-1" id="header">
+            <nav class="nav bd-container">
+                <img src="assets/img/piesta.png" alt="logo" class="nav__logo">
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="../home/" class="nav__link">HOME</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">PROFILE</a></li>
+                        <li class="nav__item"><a href="../service/" class="nav__link active-link">SERVICES</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">CLIENTS</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">CONTACT US</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">GUEST BOOK</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>  
+            </nav>
+
+            <div class="nav nav-container" id="nav2">
+                <div class="nav__info info1" id="nav-info1">
+                    <i class='bx bxs-phone' id="phone__icon"></i>
+                    <p id="telp-p"><span style="font-weight: bold;">+6221 8782 504</span><br><span></span>Request a callback</p>
+                </div>
+
+                <img src="assets/img/piesta.png" alt="logo" class="nav__logo2">
+
+                <div class="nav__info info2" id="nav-info2">
+                    <i class='bx bx-mail-send' id="mail__icon"></i>
+                    <p id="mail-p">Write Us<br><span style="font-weight: bold;">piestaconsulting@gmail.com<span></p>
                 </div>
             </div>
-            <div class="profile-detail">
-                <div class="profile-wrapper">
-                    <div class="simple-profile">
-                        <div class="photo">
-                            <img src="./Frame 6.png">
+        </header>
+        
+        <div class="cont-fluid-wrapper">
+            <div class="container-fluid">
+                <div class="container-content">
+                    <div class="side_line_sqr"></div>
+                    <div class="container-wrapper">
+                        <p>Ariq Nasution</p>
+                        <p class="department_name">IT Team</p>
+                    </div>
+                </div>
+                <div class="nav_menu_small">
+                    <a href="../service/" class="menu__before">Professional Team </a>
+                    <i class="material-icons-outlined">
+                        chevron_right
+                    </i>
+                    <a href="#" class="nav_menu_current">Profile</a>
+                </div>
+
+                <!-- Container to hold profile page -->
+                <div class="profile_info__cont">
+                    <!-- Container for profile contact info -->
+                    <div class="profile_contact__cont">
+                        <div class="prof_pic_cont">
+                            <img src="assets/img/Sample_prof_img.jpeg" alt="profile picture" >
                         </div>
-                        <div class="biodata">
-                            <div class="biodata-wrapper">
-                                <img src="./Frame 6.png">
-                                <p class="text-biodata">
-                                    Jl. Warung Buncit Raya No. 12
-                                    Warung Jati Barat
-                                    Jakarta Selatan 12550
-                                </p>
+                        <div class="profcontdetails_cont visible_active1">
+                            <div class="contdetail_items cont_address">
+                                <i class="material-icons-round item1__i">place</i>
+                                <div class="p_cont_list">
+                                    <p class="item1__p">
+                                        Jl. Warung Buncit Raya No. 12<br>
+                                        Warung Jati Barat<br>
+                                        Jakarta Selatan 12550
+                                    </p>
+                                </div>
                             </div>
-                            <div class="biodata-wrapper">
-                                <img src="./Frame 6.png">
-                                <p class="text-biodata">
-                                    +6285 7020 5858
-                                </p>
+                            <div class="contdetail_items cont_phone">
+                                <i class="material-icons-round item2__i">smartphone</i>
+                                <div class="p_cont_list">
+                                    <p class="item2__p">
+                                        +6285 7020 5858
+                                    </p>
+                                </div>
                             </div>
-                            <div class="biodata-wrapper">
-                                <img src="./Frame 6.png">
-                                <p class="text-biodata">
-                                    consultancy@piestaconsulting.com
-                                </p>
+                            <div class="contdetail_items cont_email">
+                                <i class="material-icons-round item3__i">email</i>
+                                <div class="p_cont_list">
+                                    <p class="item3__p">
+                                        consultancy@piestaconsulting.com
+                                    </p>
+                                </div>
                             </div>
-                            <div class="biodata-wrapper">
-                                <img src="./Frame 6.png">
-                                <p class="text-biodata">
-                                    @ariqnasution
-                                </p>
+                            <div class="contdetail_items cont_social">
+                                <div class="p_soc_list">
+                                    <p class="item4__p">
+                                        Social Profiles
+                                    </p>
+                                    <div class="social__cont_btn">
+                                        <a class="bx bxl-linkedin soc1__i" href="#"></a>
+                                        <a class="bx bxl-linkedin soc2__i" href="#"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="profile-cv">
-                        <div class="cv-wrapper">
-                            <div class="cv-text">   
-                                <h1>
+                    <!-- Container for profile description -->
+                    <div class="profile_description__cont">
+                        <div class="desc__row1 desc_row_container">
+                            <div class="col1__license">
+                                <p class="col__desctitle">
                                     Professional License/Membership:
-
-                                </h1>
-                                <p>
-                                    - Member and Former Chair of Indonesian Valuation Standard Development Committee (KPSPI)
                                 </p>
-                                <p>
-                                    - Member of International Valuation Standards Council (IVSC) Standards Board
-                                </p>
-                                <p>
-                                    - Fellow member of Royal Institute of Chartered Surveyor (RICS)
-                                </p>
+                                <ul class="col1_lc_lists">
+                                    <li class="lc-list">
+                                        Member and Former Chair of Indonesian Valuation Standard Development Committee (KPSPI)
+                                    </li>
+                                    <li class="lc-list">
+                                        Member of International Valuation Standards Council (IVSC) Standards Board
+                                    </li>
+                                    <li class="lc-list">
+                                        Fellow member of Royal Institute of Chartered Surveyor (RICS)
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="education">
-                                <h1>
+                            <div class="col2__education">
+                                <p class="col__desctitle">
                                     Education:
-                                </h1>
-                                <p>
-                                    - Bachelor of Civil Engineering Degree from the University of Indonesian
                                 </p>
-                                <p>
-                                    - Master’s Degree in Property Valuation and Management from Universiti Teknologi Malaysia
-                                </p>
-                                <p>
-                                    - Master’s Degree in Business Law from Gajah Mada University, Yogyakarta
-                                </p>
+                                <ul class="col2_ed_lists">
+                                    <li class="ed-list">
+                                        Bachelor of Civil Engineering Degree from the University of Indonesian
+                                    </li>
+                                    <li class="ed-list">
+                                        Master’s Degree in Property Valuation and Management from Universiti Teknologi Malaysia
+                                    </li>
+                                    <li class="ed-list">
+                                        Master’s Degree in Business Law from Gajah Mada University, Yogyakarta
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="caption-cv">
-                                <p>
+                        </div>
+                        <div class="desc__row2 desc_row_container">
+                            <div class="prof_desc_paragraph">
+                                <p class="profile_paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                                <p class="profile_paragraph">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="footer">
-                <div class="footer-wrapper">
-                    <div class="footer-content">
-                        <div class="logo-footer">
-                            <img src="./piesta_consulting_pt 3(1).png">
-                        </div>
-                        <div class="contact-footer">
-                            <div class="contact-wrapper">
-                                <h1>
-                                    CONTACT US
-                                </h1>
-                                <div class="footer-contact">
-                                    <div class="biodata-wrapper">
-                                        <img src="./Frame 6.png">
-                                        <p class="text-biodata">
-                                            Jl. Warung Buncit Raya No. 12
-                                            Warung Jati Barat
-                                            Jakarta Selatan 12550
-                                        </p>
-                                    </div>
-                                    <div class="biodata-wrapper">
-                                        <img src="./Frame 6.png">
-                                        <p class="text-biodata">
-                                            +6285 7020 5858
-                                        </p>
-                                    </div>
-                                    <div class="biodata-wrapper">
-                                        <img src="./Frame 6.png">
-                                        <p class="text-biodata">
-                                            consultancy@piestaconsulting.com
-                                        </p>
+                        <div class="profcontdetails_cont visible_active2">
+                            <div class="contdetail_items cont_address">
+                                <i class="material-icons-round item1__i">place</i>
+                                <div class="p_cont_list">
+                                    <p class="item1__p">
+                                        Jl. Warung Buncit Raya No. 12<br>
+                                        Warung Jati Barat<br>
+                                        Jakarta Selatan 12550
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contdetail_items cont_phone">
+                                <i class="material-icons-round item2__i">smartphone</i>
+                                <div class="p_cont_list">
+                                    <p class="item2__p">
+                                        +6285 7020 5858
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contdetail_items cont_email">
+                                <i class="material-icons-round item3__i">email</i>
+                                <div class="p_cont_list">
+                                    <p class="item3__p">
+                                        consultancy@piestaconsulting.com
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contdetail_items cont_social">
+                                <div class="p_soc_list">
+                                    <p class="item4__p">
+                                        Social Profiles
+                                    </p>
+                                    <div class="social__cont_btn">
+                                        <a class="bx bxl-linkedin soc1__i" href="#"></a>
+                                        <a class="bx bxl-linkedin soc2__i" href="#"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="social-media">
-                            <div class="follow-tag">
-                                <h1>FOLLOW US!</h1>
-                            </div> 
-                            <div class="social">
-                                <img src="./Frame 6.png">
-                                <img src="./Frame 6.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="comp__desc__footer">
+            <div class="comp__content">
+                <div class="comp_desc_c1">
+                    <img src="assets/img/piesta.png" alt="logo" class="comp_desc_item" id="logo_3">
+                </div>
+
+                <div class="comp_desc_c2">
+                    <h2 class="comp_desc_c2_title">CONTACT US</h2>
+                    <div class="comp_desc_wrapper">
+
+                        <div class="desc_text_wrapper">
+                            <div class="comp_desc_wrapper">
+                                <i class="bx bx-current-location desc_icon" id="desc-icon1"></i>
+                                <p class="desc_text" id="desk-text1">
+                                    Jl. Warung Buncit Raya No. 12
+                                    Warung Jati Barat<br>
+                                    Jakarta Selatan 12550
+                                </p>
+                            </div>
+                            <div class="comp_desc_wrapper">
+                                <i class="bx bx-phone desc_icon" id="desc-icon2"></i>
+                                <p class="desc_text" id="desc-text2">+6285 7020 5858</p>
+                            </div>
+                            <div class="comp_desc_wrapper">
+                                <i class="bx bx-mail-send desc_icon" id="desc-icon3"></i>
+                                <p class="desc_text" id="desc-text3">consultancy@piestaconsulting.com</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-deep">
-                    <div class="deep-wrapper">
-                        <p>©</p>
-                        <div class="company">
-                            <p>2020 Piesta Consulting Group - </p>
-                        </div>
-                        <p> All Right Reserved.</p>
+
+                <div class="comp_desc_c3">
+                    <h2 class="comp_desc_c3_title">FOLLOW US</h2>
+                    <div class="comp_desk_item comp_info_list">
+                        <i class="bx bxl-linkedin desc_icon" id="desc-icon4"></i>
+                        <i class="bx bxl-linkedin desc_icon" id="desc-icon5"></i>
                     </div>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="./logic.js"></script>
+
+
+        <div class="footer">
+            <div class="footer__deep">
+                <div class="footer__wrapper">
+                    <p class="f" id="copyright_logo">©</p>
+                    <div class="company__footer">
+                        <p>2020 <span id="bold_name">Consulting Group</span></p>
+                    </div>
+                    <p class="f" id="allright"> - All Right Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="assets/script/logic.js"></script>
+
     </body>
 
 </html>
