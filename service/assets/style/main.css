@@ -255,34 +255,41 @@
     -webkit-box-orient: vertical;
 }
 .viewprof_btn{
-    width: 120px;
-    height: 30px;
+    /* width: 120px;
+    height: 30px; */
     display: flex;
     align-items: center;
-    color: #008cff;
-    justify-content: center;
+    /* justify-content: center; */
     padding-bottom: 10px;
-    border-radius: 5px;
-    transition: 0.5s;
+    /* border-radius: 5px;
+    transition: 0.5s; */
     margin-top: 12px;
 }
 .view_prof{
-    margin-top: 10px;
+    /* width: 1px; */
+    /* height: 2px; */
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-top: 12px;
+
+    /* margin-top: 10px; */
     font-size: 15px;
     font-weight: 400;
     display: inline-block;
-    height: fit-content;
     text-decoration: none!important;
+    color: #008cff!important;
 }
 .viewprof_btn i{
     font-size: 25px;
     height: fit-content;
     margin-top: 10px;
-    color: #008cff;
+    color: #008cff!important;
 }
-.viewprof_btn:hover{
-    color: #00325a;
-    background-color: rgb(231, 231, 231);
+.view_prof:hover{
+    color: white!important;
+    background-color: rgb(77, 77, 77);
+    padding: 5px 15px;
 }
 /* description of each profile -end- */
 
