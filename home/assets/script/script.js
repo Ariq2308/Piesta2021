@@ -32,5 +32,5 @@ function scrollTop(){
         scrollTop.classList.remove('show-scroll');
     } 
 }
-ScrollReveal().reveal('.home__data');
+// ScrollReveal().reveal('.home__data');
 // ScrollReveal().reveal('.r3__content');

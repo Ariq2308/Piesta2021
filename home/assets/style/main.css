@@ -177,7 +177,7 @@
     font-size: 35px;
 }
 .r2__subtitle{
-    color: #A5A5A5;
+    color: #797979;
     font-size: 20px;
 }
 .button1{
@@ -232,7 +232,8 @@
     text-align: center;
     width: 100%;
     height: 400px;
-    background-color: #8f8f8f;
+    /* background-color: #8f8f8f; */
+    background-color: #332b2b;
     margin: auto;
     display: flex;
     align-content: center;
@@ -256,7 +257,8 @@
     margin: 0 auto;
 }
 .r3_sec1_title,.r3_sec2_title,.r3_sec3_title{
-    color:var(--red-col);
+    /* color:var(--red-col); */
+    color: #ff9bb4;
     font-size: 25px;
     font-weight: lighter;
     height: auto;
@@ -330,7 +332,93 @@
     width: 100%;
     height: 100%;
 }
+
 /*== R5 ==*/
+.r5__container{
+    height: 500px;
+    background-color: #ffffff;
+}
+.r5__cont_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.r5_r1_title{
+    width: 100vw;
+    height: 100px;
+}
+.r5_r1_h2-container{
+    width: 300px;
+    margin: 30px auto;
+}
+.r5_r1_h2{
+    color: #332b2b;
+    text-align: center;
+}
+.r5_r2_newsbox{
+    display: flex;
+    flex-direction: row;
+    /* width: 80vw; */
+    margin: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(150, 150, 150));
+}
+.r5_r2_c{
+    height: 280px;
+    width: 360px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.r5_r2_c1__image{
+    height: 180px;
+    overflow: hidden;
+}
+.r5_r2_c1__image img{
+    width: 360px;
+}
+.c1__text-title a{
+    /* padding: 10px; */
+    font-size: 12pt;
+    font-weight: 300;
+    color: #838383;
+    text-decoration: none!important;
+}
+.r5_r2_c1__text{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 20 auto;
+}
+.c1__text-date{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.c1__date-logo span{
+    padding-right: 10;
+    /* padding-left: 10; */
+    font-size: 12pt;
+    color: #008cff;
+}
+.c1__date-text p{
+    font-size: 9pt;
+    color: #008cff;
+}
+
+.c1__text-title a:hover{
+    font-weight: 400;
+    color: #8C1432!important;
+}
+.r5_r2_c1__image img:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
+
+
 
 
 

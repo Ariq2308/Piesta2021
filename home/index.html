@@ -18,12 +18,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <!-- icons -->
         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
         <!-- end icons -->
         <script src="https://unpkg.com/scrollreveal"></script>
         <!-- css style -->
         <link rel="stylesheet" type="text/css" media="screen" href="assets/style/navbar.css"/>
         <link rel="stylesheet" href="assets/style/header.css">
         <link rel="stylesheet" href="assets/style/main.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- end style -->
 
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
@@ -37,7 +40,7 @@
     </head>
     <body>
         <a href="#" class="scrolltop" id="scroll-top"><i class='bx bx-chevron-up scrolltop__icon'></i></a>
-
+        
         <header class="header-1" id="header">
             <nav class="nav bd-container">
                 <img src="assets/img/piesta.png" alt="logo" class="nav__logo">
@@ -47,7 +50,7 @@
                         <li class="nav__item"><a href="#" class="nav__link active-link">HOME</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">PROFILE</a></li>
                         <li class="nav__item"><a href="../service/index.html" class="nav__link">SERVICES</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">CLIENTS</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">PROJECTS</a></li>
                         <li class="nav__item"><a href="../contact-us/index.html" class="nav__link">CONTACT US</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">GUEST BOOK</a></li>
                     </ul>
@@ -92,8 +95,8 @@
                         <div class="r2__content">
                             <h1 class="r2__title">Discover Our Service</h1>
                             <div class="short_line"></div>
-                            <p class="r2__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut maecenas ut vitae sit. Duis mauris risus rhoncus,</p>
-                            <div class="btn-cont"><a class="button1" href="#"><i class="fa fa-search"></i>Explore</a></div>
+                            <p class="r2__subtitle" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut maecenas ut vitae sit. Duis mauris risus rhoncus,</p>
+                            <div class="btn-cont" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"><a class="button1" href="#"><i class="fa fa-search"></i>Explore</a></div>
                         </div>
                     </div>
 
@@ -101,7 +104,7 @@
                         <div class="r3__content">
                             <h1 class="r3__title r2__title">Why Choose Us?</h1>
                             <div class="short_line"></div>
-                            <div class="r3__section">
+                            <div class="r3__section" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000">
                                 <div class="r3__sec1 sec__box">
                                     <h2 class="r3_sec1_title">Responsiveness & Knowledge</h2>
                                     <p class="r3_sec1_subtitle">Being able to react quickly with team that has knowledge and skills in high-quality</p>
@@ -125,6 +128,48 @@
                         </div>
                     </div>
                     <div class="home__data r5">
+                        <div class="r5__container">
+                            <div class="r5__cont_box">
+                                <div class="r5_r1_title">
+                                    <div class="r5_r1_h2-container">
+                                        <h2 class="r5_r1_h2">Our Latest News</h2>
+                                        <div class="short_line"></div>
+                                    </div>
+                                </div>
+                                <div class="r5_r2_newsbox" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"">
+                                    <div class="r5_r2_c1 r5_r2_c">
+                                        <div class="r5_r2_c1__image"><img src="assets/img/news-img.jpeg" alt=""></div>
+                                        <div class="r5_r2_c1__text">
+                                            <div class="c1__text-title"><a href="#">News Title Here</a></div>
+                                            <div class="c1__text-date">
+                                                <div class="c1__date-logo"><span class="material-icons-round">event</span></div>
+                                                <div class="c1__date-text"><p>21 July 2021</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="r5_r2_c2 r5_r2_c">
+                                        <div class="r5_r2_c1__image"><img src="assets/img/news-img.jpeg" alt=""></div>
+                                        <div class="r5_r2_c1__text">
+                                            <div class="c1__text-title"><a href="#">News Title Here</a></div>
+                                            <div class="c1__text-date">
+                                                <div class="c1__date-logo"><span class="material-icons-round">event</span></div>
+                                                <div class="c1__date-text"><p>21 July 2021</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="r5_r2_c3 r5_r2_c">
+                                        <div class="r5_r2_c1__image"><img src="assets/img/news-img.jpeg" alt=""></div>
+                                        <div class="r5_r2_c1__text">
+                                            <div class="c1__text-title"><a href="#">News Title Here</a></div>
+                                            <div class="c1__text-date">
+                                                <div class="c1__date-logo"><span class="material-icons-round">event</span></div>
+                                                <div class="c1__date-text"><p>21 July 2021</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="comp__desc__footer">
@@ -195,5 +240,9 @@
 
 
         <script src="assets/script/script.js"></script>
+        <script>
+          AOS.init();
+        </script>
+      
     </body>
 </html>
