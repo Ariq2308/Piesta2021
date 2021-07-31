@@ -49,34 +49,6 @@ a,i{
 }
 
 
-
-/* .section{
-  padding: 4rem 0 2rem;
-}
-.section-title, .section-subtitle{
-  text-align: center;
-}
-.section-title{
-  font-size: 100px;
-  color: var(--white-col);
-}
-.section-subtitle{
-  display: block;
-  color: var(--white-col);
-  font-family: 'Poppins', sans-serif;
-  font-size: 64px;
-  line-height: 50px;
-}
-.bd__container{
-  width: 100%;
-  height: 100%;
-}
-.bd-grid{
-  display: grid;
-  gap: 1.5rem;
-} */
-
-
 .header-1{
   width: 100%;
   position: fixed;
