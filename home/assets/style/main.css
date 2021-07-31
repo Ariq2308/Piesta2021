@@ -17,6 +17,9 @@
     --nav-height: 60px;
     --nav-height2: 80px;
 }
+body{
+    overflow-x: hidden;
+}
 
 /*== Home ==*/
 .home__bg_cont{
@@ -29,16 +32,12 @@
     animation-duration: 40s;
     animation-iteration-count: infinite;
     size: cover;
-    /* margin: auto; */
-    /* align-content: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
 }
 .homebg__animation{
     text-align: center;
     width: 100%;
     height: 100%;
+    background-image: url("../img/header-bg.png");
 }
 
 @keyframes moving {
@@ -239,7 +238,7 @@
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    overflow: scroll;
+    overflow: hidden;
 
 }
 .sec__box{
@@ -328,12 +327,16 @@
 .r4__bg{
     width: 100%;
     height: 100%;
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+    background-position: center;
 }
+
 
 /*== R5 ==*/
 .r5__container{
     height: 500px;
-    background-color: #ffffff;
+    background-color: #29010b;
 }
 .r5__cont_box{
     display: flex;
@@ -346,18 +349,22 @@
 }
 .r5_r1_h2-container{
     width: 300px;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 .r5_r1_h2{
-    color: #332b2b;
+    /* color: #332b2b; */
+    color: #fff;
     text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300
 }
 .r5_r2_newsbox{
     display: flex;
     flex-direction: row;
     /* width: 80vw; */
     margin: auto;
-    filter: drop-shadow(0 0 0.2rem rgb(150, 150, 150));
+    /* filter: drop-shadow(0 0 0.2rem rgb(150, 150, 150)); */
+    filter: drop-shadow(0 0 0.2rem rgb(27, 27, 27));
 }
 .r5_r2_c{
     height: 280px;
@@ -540,6 +547,41 @@
     .c1__text-date{
         margin-top: 0px;
     }
+}
+
+/*== R6 ==*/
+.r6__container{
+    width: 100vw;
+    background-color: white;
+    height: 330px;
+    overflow: hidden;
+}
+.slider__container{
+}
+.logo-slider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 180px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.logo-slide img{
+    width: 170px;
+    margin: auto auto;
+}
+.logo-slide{
+    margin-top: 40px;
+    margin: 0 90px;
+}
+.r6__title{
+    text-align: center;
+    padding-top: 50px;
+}
+.r6__title h1{
+    font-weight: 300;
+    color: #5a5a5a;
 }
 
 
