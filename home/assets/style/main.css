@@ -664,6 +664,34 @@ body{
     }
 }
 
+/* FAQS */
+.faq__btn-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #8C1432;
+    height: 35px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+    border-radius: 10pt;
+    text-decoration: none!important;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+.faq__btn-footer:hover{
+    display: flex;
+    flex-direction: row;
+    background-color: #dfdfdf;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+    border-radius: 60pt;
+    text-decoration: none!important;
+    color: #008cff;
+}
+
 
 
 /*== Footer ==*/
