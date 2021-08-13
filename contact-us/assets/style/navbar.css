@@ -266,3 +266,137 @@ a,i{
       height: 60px;
   }
 }
+
+
+/*== Mega Menu ==*/
+.megamenu1{
+  display: none;
+  position: absolute;
+  z-index: 99!important;
+  width: 100vw;
+  left: 0;
+  top: 40;
+  padding-top: 200px;
+}
+.row-mega-nav1{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  padding: 20px 40px;
+  background-color: white;
+  width: 100vw;
+  top: 20;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/* .megalink1:hover ~.megamenu1,.megamenu1:hover{
+  display: block;
+} */
+/* .megalink1:hover .megamenu1,.megamenu1:hover{
+  display: block;
+} */
+.column-mega-nav a{
+  text-decoration: none!important;
+  color: #1D2551;
+}
+.column-mega-nav a:hover{
+  color: #8C1432;
+}
+.column-mega-nav{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+
+/*== Drop Down Menu ==*/
+.dropmenu1{
+  position: absolute;
+  display: none;
+  top: 39;
+  z-index: 99!important;
+  padding-top: 20px;
+  width: 170px;
+}
+.row-drop-nav1{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding: 20px 40px;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 99!important;
+}
+.row-drop-nav1 a{
+  text-decoration: none!important;
+  color: #1D2551;
+}
+/* .dropdown-nav1:hover .dropmenu1{
+  display: block;
+} */
+.row-drop-nav1 :hover{
+  color: #8C1432;
+}
+.dropmenu-icon{
+  display: none;
+}
+
+@media screen and (min-width:769px) {
+  .dropdown-nav1:hover .dropmenu1{
+    display: block;
+  }
+  .megalink1:hover .megamenu1,.megamenu1:hover{
+    display: block;
+  }
+}
+
+/* Small navigation */
+@media screen and (max-width:768px){
+  /* DropDown */
+  .dropmenu1{
+    position: static;
+    top: 0;
+    padding-top: 0px;
+    width: 100vw;
+    height: 100px;
+  }
+  .row-drop-nav1{
+    display: flex;
+    position: static;
+    flex-direction: column;
+    padding: 20px 40px;
+    width: 100vw;
+  }
+  .dropshow{
+    display: block;
+  }
+  .dropmenu-icon{
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+  }
+
+  /* Mega menu */
+  .megamenu1{
+    position: static;
+    z-index: 99!important;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    padding-top: 0px;
+    height: 200px;
+  }
+  .row-mega-nav1{
+    display: flex;
+    position: static;
+    flex-direction: row;
+    padding: 20px 40px;
+    background-color: white;
+    width: 100vw;
+    top: 116;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .megashow{
+    display: block;
+  }
+}

@@ -20,6 +20,14 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
+// dropdown
+$('.dropdown-nav1').click(function(){
+  $('.dropmenu1').toggle('.dropshow');
+});
+// megamenu
+$('.megalink1').click(function(){
+  $('.megamenu1').toggle('.megashow');
+});
 
 /*==================== SCROLL TOP ====================*/
 window.addEventListener('scroll', scrollTop);
