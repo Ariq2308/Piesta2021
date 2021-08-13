@@ -556,8 +556,7 @@ body{
     height: 330px;
     overflow: hidden;
 }
-.slider__container{
-}
+
 .logo-slider{
     display: flex;
     flex-wrap: wrap;
