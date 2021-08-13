@@ -249,7 +249,8 @@ a,i{
   z-index: 99!important;
   width: 100vw;
   left: 0;
-  top: 20;
+  top: 40;
+  padding-top: 200px;
 }
 .row-mega-nav1{
   display: flex;
@@ -259,6 +260,7 @@ a,i{
   background-color: white;
   width: 100vw;
   top: 20;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .megalink1:hover ~.megamenu1,.megamenu1:hover{
   display: block;
@@ -275,25 +277,44 @@ a,i{
   flex-direction: column;
   padding: 20px;
 }
+/* .emptymegamenu{
+  width: 100vw;
+  height: 200px;
+  border: 1px solid yellow;
+  position: inherit;
+} */
 
 /*== Drop Down Menu ==*/
-.row-drop-nav1{
+.dropmenu1{
+  position: absolute;
   display: none;
+  top: 39;
+  z-index: 99!important;
+  padding-top: 20px;
+  width: 180px;
+}
+.row-drop-nav1{
+  display: flex;
   position: absolute;
   flex-direction: column;
   padding: 20px 40px;
   background-color: white;
-  z-index: 99!important;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  
+  z-index: 99!important;
 }
 .row-drop-nav1 a{
   text-decoration: none!important;
   color: #1D2551;
 }
-.dropdown-nav1:hover .row-drop-nav1{
-  display: flex;
+.dropdown-nav1:hover .dropmenu1{
+  display: block;
 }
 .row-drop-nav1 :hover{
   color: #8C1432;
 }
+/* .emptydropmenu{
+  height: 200px;
+  border: 1px solid yellow;
+  position: absolute;
+  z-index: 99;
+} */
