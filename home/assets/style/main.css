@@ -336,7 +336,7 @@ body{
 /*== R5 ==*/
 .r5__container{
     height: 500px;
-    background-color: #29010b;
+    background-color: #bebebe;
 }
 .r5__cont_box{
     display: flex;
@@ -364,7 +364,7 @@ body{
     /* width: 80vw; */
     margin: auto;
     /* filter: drop-shadow(0 0 0.2rem rgb(150, 150, 150)); */
-    filter: drop-shadow(0 0 0.2rem rgb(27, 27, 27));
+    filter: drop-shadow(0 0 0.2rem rgb(121, 121, 121));
 }
 .r5_r2_c{
     height: 280px;
