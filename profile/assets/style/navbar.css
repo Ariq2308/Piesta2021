@@ -308,16 +308,16 @@ a,i{
 .row-drop-nav1 :hover{
   color: #8C1432;
 }
-.dropmenu-icon{
-  display: none;
-}
 
 @media screen and (min-width:769px) {
   .dropdown-nav1:hover .dropmenu1{
-    display: block;
+    display: block!important;
   }
   .megalink1:hover .megamenu1,.megamenu1:hover{
-    display: block;
+    display: block!important;
+  }
+  .dropmenu-icon{
+    display: none!important;
   }
 }
 
