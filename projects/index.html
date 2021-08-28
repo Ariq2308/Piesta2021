@@ -15,7 +15,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" media="screen" href="assets/style/navbar.css"/>
         <link rel="stylesheet" type="text/css" media="screen" href="assets/style/main.css"/>
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/style/department.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -25,6 +24,11 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
         <!-- end icons -->
         <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
         
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -45,7 +49,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="../home/index.html" class="nav__link">HOME</a></li>
-                        <li class="nav__item dropdown-nav1"><a href="../profile/index.html" class="nav__link active-link">PROFILE</a>
+                        <li class="nav__item dropdown-nav1"><a href="../profile/index.html" class="nav__link">PROFILE</a>
                             <i class="material-icons-round dropmenu-icon">expand_more</i>
                             <div class="dropmenu1">
                                 <div class="row-drop-nav1 ">
@@ -77,7 +81,7 @@
                                     </div>
                                 </div>
                             </div></li>
-                        <li class="nav__item"><a href="../projects/index.html" class="nav__link">PROJECTS</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link active-link">PROJECTS</a></li>
                         <li class="nav__item"><a href="../contact-us/index.html" class="nav__link">CONTACT US</a></li>
                     </ul>
                 </div>
@@ -108,7 +112,7 @@
             <div class="container-fluid">
                 <div class="container-content">
                     <div class="container-wrapper">
-                        <p>Our People</p>
+                        <p>Our Projects</p>
                     </div>
                 </div>
                 <div class="rectangle">
@@ -117,60 +121,108 @@
                         </div>
                     </div>
                 </div> 
+                <!-- <div class="r6__container"> -->
+                    <div class="slider__container">
+                        <div class="logo-slider" data-aos="slide-up" data-aos-delay="20" data-aos-duration="1000">
+                            <div class="logo-slide"><a href="#"><img src="assets/img/logo1.jpg" alt="sponsor" id="sponsor1"></a></div>
+                            <div class="logo-slide"><a href="#"><img src="assets/img/logo2.png" alt="sponsor" id="sponsor2"></a></div>
+                            <div class="logo-slide"><a href="#"><img src="assets/img/logo3.png" alt="sponsor" id="sponsor3"></a></div>
+                            <div class="logo-slide"><a href="#"><img src="assets/img/logo1.jpg" alt="sponsor" id="sponsor1"></a></div>
+                            <div class="logo-slide"><a href="#"><img src="assets/img/logo2.png" alt="sponsor" id="sponsor2"></a></div>
+                            <div class="logo-slide"><a href="#"><img src="assets/img/logo3.png" alt="sponsor" id="sponsor3"></a></div>
+                        </div>
+                    </div>
+                <!-- </div> -->
                 <div class="navigation">
                     <div class="top-navigation">
                         <div class="navsec">
-                            <a class="hover " id="prof_menu" href="index.html">
-                                Professional Team
+                            <a class="hover active" id="prof_menu" href="index.html">
+                                Category A
                             </a>
-                            <a class="hover active" id="dep_menu" href="departments.html">
-                                Department
+                            <a class="hover" id="dep_menu" href="#">
+                                Category B
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="row1__container_dept">
-                    <div class="department_card department1">
-                        <div class="col_department col1_department">
-                            <div class="departpic_cont">
-                                <img src="assets/img/Group_sample_img.jpeg" alt="" class="dept_pic">
+                <div class="row1__container">
+                    <div class="profile_card profile1">
+                        <div class="col_profile col1_profile">
+                            <div class="profpic_cont">
+                                <img src="assets/img/Sample_prof_img.jpeg" alt="" class="prof_pic">
                             </div>
-                            <div class="depart_desc depart1_desc">
-                                <div class="department_name"><h2>IT Team</h2></div>
-                                <div class="liner_department"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="department_card department2">
-                        <div class="col_department col2_department">
-                            <div class="departpic_cont">
-                                <img src="assets/img/Group_sample_img.jpeg" alt="" class="dept_pic">
-                            </div>
-                            <div class="depart_desc depart2_desc">
-                                <div class="department_name"><h2>IT Team</h2></div>
-                                <div class="liner_department"></div>
+                            <div class="prof_desc prof1_desc">
+                                <div class="prof_name"><h2>Project</h2></div>
+                                <div class="prof_department">Category</div>
+                                <div class="prof_summary">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
+                                </div>
+                                <div class="viewprof_btn">
+                                    <a href="../team-profile/index.html" class="view_prof">View Project</a>
+                                    <i class="material-icons-outlined">
+                                        chevron_right
+                                    </i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="department_card department3">
-                        <div class="col_department col3_department">
-                            <div class="departpic_cont">
-                                <img src="assets/img/Group_sample_img.jpeg" alt="" class="dept_pic">
+                    <div class="profile_card profile2">
+                        <div class="col_profile col2_profile">
+                            <div class="profpic_cont">
+                                <img src="assets/img/Sample_prof_img.jpeg" alt="" class="prof_pic">
                             </div>
-                            <div class="depart_desc depart3_desc">
-                                <div class="department_name"><h2>IT Team</h2></div>
-                                <div class="liner_department"></div>
+                            <div class="prof_desc prof2_desc">
+                                <div class="prof_name"><h2>Project</h2></div>
+                                <div class="prof_department">Category</div>
+                                <div class="prof_summary">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
+                                </div>
+                                <div class="viewprof_btn">
+                                    <a href="../team-profile/index.html" class="view_prof">View Project</a>
+                                    <i class="material-icons-outlined">
+                                        chevron_right
+                                    </i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="department_card department4">
-                        <div class="col_department col4_department">
-                            <div class="departpic_cont">
-                                <img src="assets/img/Group_sample_img.jpeg" alt="" class="dept_pic">
+                    <div class="profile_card profile3">
+                        <div class="col_profile col3_profile">
+                            <div class="profpic_cont">
+                                <img src="assets/img/Sample_prof_img.jpeg" alt="" class="prof_pic">
                             </div>
-                            <div class="depart_desc depart4_desc">
-                                <div class="department_name"><h2>IT Team</h2></div>
-                                <div class="liner_department"></div>
+                            <div class="prof_desc prof3_desc">
+                                <div class="prof_name"><h2>Project</h2></div>
+                                <div class="prof_department">Category</div>
+                                <div class="prof_summary">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
+                                </div>
+                                <div class="viewprof_btn">
+                                    <a href="../team-profile/index.html" class="view_prof">View Project</a>
+                                    <i class="material-icons-outlined">
+                                        chevron_right
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile_card profile4">
+                        <div class="col_profile col4_profile">
+                            <div class="profpic_cont">
+                                <img src="assets/img/Sample_prof_img.jpeg" alt="" class="prof_pic">
+                            </div>
+                            <div class="prof_desc prof4_desc">
+                                <div class="prof_name"><h2>Project</h2></div>
+                                <div class="prof_department">Category</div>
+                                <div class="prof_summary">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
+                                </div>
+                                <div class="viewprof_btn">
+                                    <a href="../team-profile/index.html" class="view_prof">View Project</a>
+                                    <i class="material-icons-outlined">
+                                        chevron_right
+                                    </i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -240,7 +292,20 @@
         </div>
 
         <script type="text/javascript" src="assets/script/logic.js"></script>
-
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script>
+            $('.logo-slider').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                centerMode: true,
+            });
+        </script>
     </body>
 
 </html>
