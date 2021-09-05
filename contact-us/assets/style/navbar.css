@@ -297,6 +297,7 @@ a,i{
 .column-mega-nav a{
   text-decoration: none!important;
   color: #1D2551;
+  font-size: 14px;
 }
 .column-mega-nav a:hover{
   color: #8C1432;
